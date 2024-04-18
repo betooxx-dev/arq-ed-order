@@ -9,7 +9,7 @@ const app = express();
 app.disable("x-powered-by");
 
 app.use(express.json());
-app.use(cors({ origin: '*'  }));
+app.use(cors({ origin: 'https://comfy-cranachan-cb3bd1.netlify.app/'  }));
 
 app.use('/order', OrderRouter);
 
